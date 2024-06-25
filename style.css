@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+/* to slide smoothly between website's parts */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: comic sans ms, comic sans, cursive;
+  font-size: 30px;
+  background-color: #433C53;
+  color:#887DA1 ;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: #D4D0DD;
+  position: fixed;
+  top: 0;
+  
+}
+
+#menu li {
+  display: inline-block;
+  float: left;
+  line-height: 40px; 
+  
+  
+}
+#menu li a{
+  font-size: 20px;
+  font-family: comic sans ms;
+  padding: 0 30px;
+  color: #201E50; 
+  
+}
+#menu li a:hover {
+  color: #ffcc00;
+  
+}
+
+h1 {
+  font-family: vedana;
+  font-size:150px;
+  float: left;
+  color: white;
+  margin-top: 50px;
+}
+
+}
+#title-about{
+  font-size: 50px;
+  color: #BEB8CC;
+  border-left: 1px solid white;
+  padding-left: 10px;
+  padding-top: 30px;
+ 
+}
+
+#about-info {
+  margin-top: 20px;
+  margin-bottom: 20px
+  
+  
+}
+#about-img {
+  float: right;
+  width: 23%;
+}
+#famous-musicians {
+  font-size: 50px;
+  margin-top: 100px;
+  color: #05B2DC;
+  border-left: 1px solid white;
+  padding-left:10px;
+  padding-top: 30px;
+
+}
+#shamma-info {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#shamma-img {
+  float: left;
+  width: 45%;
+  margin-right: 20px;
+}
+
+#shaheen-info {
+  margin-bottom: 10px;
+ 
+}
+#shaheen-img {
+  float: right;
+  width: 50%;
+}
+
+#rouhana-img {
+  float: left;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.info-box {
+  margin-top: 100px;
+  border-top: 1px solid white;
+}
+
+table a:hover {
+  background-color: white;
+}
+
+a:link {
+  color: red; 
+}
+  
+#content {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 40px;
+  color: #BEB8CC;
+}
+
+table {
+  width: 30%;
+  margin: 10px;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid white;
+  color: #b33c00;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #663300;
+  clear: both;
+  border-top: 3px solid #e67300;
+   
+}
+.contact-icons {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  
+}
+
+.contact-icons li {
+  font-size: 40px;
+  margin: 5px;
+ 
+}
+/* to make the website responsive to mobile phones */
+
+@media (max-width: 600px) {
+  #menu li a{
+    font-size: 15px;
+    padding: 0 5px;
+    
+  }
+  h1 {
+    font-size: 75px;
+  }
+  table {
+    width: 100%;
+  }
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.TEXT {
+  text-align: center;
+}
